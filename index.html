@@ -12,14 +12,13 @@
 <body>
     <header>
         <div>
-            <i class="fas fa-crown"></i>
-            <h1>Ledor</h1>
+            <h1><i class="fas fa-crown"></i> <a href="#"> Ledor</a></h1>
         </div>
             <nav>
                 <ul>
-                    <li><a href="#"></a> Nos offres</li>
-                    <li><a href="#"></a> Notre équipe</li>
-                    <li><a href="#"></a> Contact</li>
+                    <li><a href="#part2">Nos offres</a> </li>
+                    <li><a href="#part4">Notre équipe</a> </li>
+                    <li><a href="#part5">Contact</a> </li>
                 </ul>
             </nav>
     </header>
@@ -34,12 +33,12 @@
 </section>
 
 
-<section class="part2">
+<section id="part2">
     <h3>Nos dernières offres</h3>
     <div class="container">
         <div>
             <img src="./img/house-1.jpg" alt="">
-            <div>
+            <div class="offres">
                 <p>Appartement - Paris 75007</p>
                 <p>11 chambres 450m²</p>
                 <hr>
@@ -48,7 +47,7 @@
         </div>
         <div>
             <img src="./img/house-2.jpg" alt="">
-            <div>
+            <div class="offres">
                 <p>Appartement - Paris 75001</p>
                 <p>5 chambres 233 m²</p>
                 <hr>
@@ -57,7 +56,7 @@
         </div>
         <div>
             <img src="./img/house-3.jpg" alt="">
-            <div>
+            <div class="offres">
                 <p>Appartement - Paris 75001</p>
                 <p>5 chambres 233 m²</p>
                 <hr>
@@ -77,36 +76,36 @@
     </div>
 </section>
 
-<section class="part4">
+<section id="part4">
     <h3>Écoutez ce qu'ils pensent de nous</h3>
-    <div>
+    <div class="people">
         <div>
             <p><i class="fas fa-quote-left"></i>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, explicabo fuga. Impedit rem voluptatibus adipisci dolorem culpa minima fuga.  <i class="fas fa-quote-right"></i></p>
 
         </div>
-        <div>
+        <div class="Julie">
             <img src="./img/person-1.jpg" alt="">
             <p>Julie Roux</p>
             <p>Developpeuse web</p>
         </div>
     </div>
-    <div>
+    <div class="people">
         <div>
             <p><i class="fas fa-quote-left"></i>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates at quam, 
                 veritatis non laborum cupiditate ea animi ratione aspernatur maiores cum quia omnis distinctio facilis iure nulla consequuntur inventore veniam.  <i class="fas fa-quote-right"></i></p>
         </div>
-        <div>
+        <div class="Arthur">
             <img src="./img/person-2.jpg" alt="">
             <p>Arthur Lac</p>
             <p>Developpeur web</p>
         </div>
     </div>
-    <div>
+    <div class="people">
         <div>
             <p><i class="fas fa-quote-left"></i>  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse laudantium omnis reprehenderit velit tempore sed suscipit consectetur nulla ut dolore id, 
                 accusamus porro quasi doloribus ab beatae delectus, rerum corrupti!  <i class="fas fa-quote-right"></i></p>
         </div>
-        <div>
+        <div class="Jean">
             <img src="./img/person-3.jpg" alt="">
             <p>Jean Dupont</p>
             <p>CEO etoile</p>
@@ -114,11 +113,10 @@
     </div>
 </section>
 
-<section class="part5">
-    <div>
+<section id="part5">
+    <div class="formulaire">
         <h3>Pour nous <span>contacter</span></h3>
         <form action="form">
-            <p><label for="nom">Nom</label></p>
             <p><input type="text" name="nom" id="nom"></p>
   
             <p><label for="email">Email</label></p>

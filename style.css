@@ -1,0 +1,70 @@
+/*------------------------------------------------------------------------------------ Normalisation de ma page RESET CSS --------------------------------------------------- */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* -------------------------------------------------------------------------------- Mise en forme des balises globales ------------------------------------------------------*/
+
+body{
+    font-family: "Montserrat", sans-serif;
+    color: #222;
+    size: 100vh;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+/* -------------------------------------------------------------------------------------- Mise en forme du header ----------------------------------------------------------*/
+
+header{
+    background: #333;
+    overflow: hidden;
+}
+
+header h1{
+    width: 50%;
+}
+
+header h1 i{
+    color: gold;
+}
+
+header h1 a{
+    color: white;
+    font-family: "Long Cang", cursive;
+}
+
+header nav ul li a{
+    color: white;
+    padding: 1.23rem;
+    display: block;
+    
+}
+
+header nav ul li a:hover{
+    color: yellow;
+}
+
+header h1 a{
+    color: white;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav{
+    width: 50%;
+    
+    justify-content: center;
+}
+
+header nav ul li{
+    flex-flow: row nowrap;
+}
+
+
