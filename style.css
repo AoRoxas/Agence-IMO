@@ -22,49 +22,132 @@ a{
 
 header{
     background: #333;
-    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    
+
 }
 
-header h1{
-    width: 50%;
+header div{
+    display: flex;
+    margin-left: 3rem;
+    margin-top: -0.55rem;
+    
 }
 
-header h1 i{
+header i{
     color: gold;
+    margin-top: 1.25rem;
+    margin-right: 1rem;
 }
 
 header h1 a{
     color: white;
     font-family: "Long Cang", cursive;
+    
 }
 
 header nav ul li a{
     color: white;
     padding: 1.23rem;
     display: block;
-    
+    justify-content: flex-end;
 }
 
 header nav ul li a:hover{
     color: yellow;
 }
 
-header h1 a{
-    color: white;
+h1{
+    font-size: 3rem;
+    margin-top: 0.25rem;
 }
+
+
 
 header nav ul{
     list-style: none;
-}
-
-header nav{
-    width: 50%;
+    display: flex;
+    align-items: flex-end;
     
+}
+
+/*-------------------------------------------------------------------Section 1---------------------------------------------------------*/
+
+.part1{
+    background-image: url(./img/frame.jpg);
+    display: flex;
     justify-content: center;
+    height: 50rem;
+    background-size: cover;
+    
 }
 
-header nav ul li{
-    flex-flow: row nowrap;
+.part1 div{
+    text-align: center;
+    width: 50%;
+    margin-top: 12rem;
 }
 
+.part1 h2{
+    color: white;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
 
+.part1 p{
+    color: white;
+    font-size: 2rem;
+}
+
+.part1 h2 span{
+    color: gold;
+    font-weight: lighter;
+}
+
+/*----------------------------------------------------------- Section 2 -------------------------------------------------------*/
+
+#part2{
+    margin: 2rem auto;
+    
+}
+
+#part2 h3{
+    font-weight: lighter;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.container{
+    display: flex;
+    width: 75%;
+    margin: 2rem auto;
+    
+}
+
+.offres{
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    
+}
+
+.hr{
+    width: 3rem;
+    height: 0.20rem;
+    background-color: black;
+}
+
+.offres p{
+    margin: 1rem;
+}
+
+.container div{
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.container div img{
+    width: 100%;
+}
