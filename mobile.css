@@ -1,0 +1,89 @@
+@media screen and (min-width:577px) and (max-width:913px){
+
+    /*Section 1*/
+
+    .part1 div{
+        margin: 5rem 0;
+        background-color: rgba(226,226,226,0.29);
+        padding: 4.5rem;
+        width: 84%;
+    }
+
+    /*Section 2*/
+
+    .container{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding-bottom: 3rem;
+    }
+
+    /*Section 3*/
+
+    img{
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:913px){
+
+    /*Section 1*/
+
+    .part1 div{
+        margin: 5rem 0;
+        background-color: rgba(226,226,226,0.29);
+        padding: 4.5rem;
+        width: 84%;
+    }
+
+    .part1 h2{
+        font-size: 2rem;
+    }
+
+    .part1 p{
+        font-size: 1rem;
+    }
+    /* Section 2*/
+
+    .container{
+        display: block;
+        margin-left: 5rem;
+        margin-right: auto;
+        width: 50%;
+        padding-bottom: 3rem;
+    }
+
+    /* Section 3*/
+
+    img{
+        object-fit: cover;
+    }
+
+    .part3 div h3{
+        font-size: 1.50rem;
+    }
+
+    .part3 div p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:914px) and (max-width:1280px){
+
+    /* Section 2*/
+
+    .container{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding-bottom: 3rem;
+    }
+
+    /* Section 3*/
+
+    img{
+        object-fit: cover;
+    }
+}

@@ -83,15 +83,15 @@ header nav ul{
     background-image: url(./img/frame.jpg);
     display: flex;
     justify-content: center;
-    height: 50rem;
     background-size: cover;
     
 }
 
 .part1 div{
     text-align: center;
-    width: 50%;
-    margin-top: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 13rem;
 }
 
 .part1 h2{
@@ -160,6 +160,7 @@ hr{
     background-size: cover;
     height: auto;
     width: 50%;
+    object-fit: cover;
 }
 
 .part3{
@@ -247,6 +248,9 @@ hr{
     justify-content: flex-end;
 }
 
+.citation{
+    width: 80%;
+}
 /*---------------------------------------------------------------- Section 4 -------------------------------------------------------*/
 
 #part5{
